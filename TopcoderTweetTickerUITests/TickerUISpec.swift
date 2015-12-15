@@ -1,5 +1,5 @@
 //
-//  TwitterServiceSpec.swift
+//  TickerUISpec.swift
 //  TopcoderTweetTicker
 //
 //  Created by David Conner on 12/15/15.
@@ -10,10 +10,10 @@ import Foundation
 import Quick
 import Nimble
 
-class TwitterServiceSpec: QuickSpec {
+class TickerUISpec: QuickSpec {
     override func spec() {
-        describe("TwitterService") {
-            it("tests the things") {
+        describe("Tweet Ticker UI") {
+            it("marquees ze tweets") {
                 expect(0) == 0
             }
         }

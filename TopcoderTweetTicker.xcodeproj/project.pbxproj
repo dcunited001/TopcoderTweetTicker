@@ -17,6 +17,11 @@
 		43551C091C20CCC700C74064 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43551C081C20CCC700C74064 /* SwiftyJSON.framework */; };
 		43551C0B1C20CCE700C74064 /* TwitterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43551C0A1C20CCE700C74064 /* TwitterService.swift */; };
 		43551C0D1C20CD1A00C74064 /* TwitterServiceSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43551C0C1C20CD1A00C74064 /* TwitterServiceSpec.swift */; };
+		43551C111C20D25D00C74064 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43551C0F1C20D25D00C74064 /* Nimble.framework */; };
+		43551C121C20D25D00C74064 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43551C101C20D25D00C74064 /* Quick.framework */; };
+		43551C161C20D2C600C74064 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43551C0F1C20D25D00C74064 /* Nimble.framework */; };
+		43551C171C20D2C600C74064 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43551C101C20D25D00C74064 /* Quick.framework */; };
+		43551C191C20D2D800C74064 /* TickerUISpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43551C181C20D2D800C74064 /* TickerUISpec.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,9 @@
 		43551C081C20CCC700C74064 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
 		43551C0A1C20CCE700C74064 /* TwitterService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterService.swift; sourceTree = "<group>"; };
 		43551C0C1C20CD1A00C74064 /* TwitterServiceSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterServiceSpec.swift; sourceTree = "<group>"; };
+		43551C0F1C20D25D00C74064 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
+		43551C101C20D25D00C74064 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
+		43551C181C20D2D800C74064 /* TickerUISpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TickerUISpec.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +77,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43551C111C20D25D00C74064 /* Nimble.framework in Frameworks */,
+				43551C121C20D25D00C74064 /* Quick.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +86,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43551C161C20D2C600C74064 /* Nimble.framework in Frameworks */,
+				43551C171C20D2C600C74064 /* Quick.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +97,8 @@
 		4334D6EA1C20C8DD00D2DCA6 = {
 			isa = PBXGroup;
 			children = (
+				43551C0F1C20D25D00C74064 /* Nimble.framework */,
+				43551C101C20D25D00C74064 /* Quick.framework */,
 				43551C081C20CCC700C74064 /* SwiftyJSON.framework */,
 				43551C061C20CCC400C74064 /* Alamofire.framework */,
 				4334D6F51C20C8DD00D2DCA6 /* TopcoderTweetTicker */,
@@ -132,6 +146,7 @@
 			children = (
 				43551BFE1C20CC9800C74064 /* TopcoderTweetTickerUITests.swift */,
 				43551C001C20CC9800C74064 /* Info.plist */,
+				43551C181C20D2D800C74064 /* TickerUISpec.swift */,
 			);
 			path = TopcoderTweetTickerUITests;
 			sourceTree = "<group>";
@@ -164,6 +179,7 @@
 				43551BEA1C20CC8C00C74064 /* Sources */,
 				43551BEB1C20CC8C00C74064 /* Frameworks */,
 				43551BEC1C20CC8C00C74064 /* Resources */,
+				43551C141C20D26D00C74064 /* Copy Carthage Frameworks */,
 			);
 			buildRules = (
 			);
@@ -182,6 +198,7 @@
 				43551BF81C20CC9800C74064 /* Sources */,
 				43551BF91C20CC9800C74064 /* Frameworks */,
 				43551BFA1C20CC9800C74064 /* Resources */,
+				43551C151C20D27E00C74064 /* Copy Carthage Frameworks */,
 			);
 			buildRules = (
 			);
@@ -280,6 +297,38 @@
 			shellPath = "/usr/local/bin/carthage copy-frameworks";
 			shellScript = "";
 		};
+		43551C141C20D26D00C74064 /* Copy Carthage Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Quick.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Nimble.framework",
+			);
+			name = "Copy Carthage Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = "/usr/local/bin/carthage copy-frameworks";
+			shellScript = "";
+		};
+		43551C151C20D27E00C74064 /* Copy Carthage Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Quick.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Nimble.framework",
+			);
+			name = "Copy Carthage Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = "/usr/local/bin/carthage copy-frameworks";
+			shellScript = "";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -305,6 +354,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43551C191C20D2D800C74064 /* TickerUISpec.swift in Sources */,
 				43551BFF1C20CC9800C74064 /* TopcoderTweetTickerUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -461,6 +511,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = TopcoderTweetTickerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dcunit3d.TopcoderTweetTickerTests;
@@ -473,6 +527,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = TopcoderTweetTickerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dcunit3d.TopcoderTweetTickerTests;
@@ -484,6 +542,10 @@
 		43551C041C20CC9800C74064 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = TopcoderTweetTickerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dcunit3d.TopcoderTweetTickerUITests;
@@ -496,6 +558,10 @@
 		43551C051C20CC9800C74064 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = TopcoderTweetTickerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dcunit3d.TopcoderTweetTickerUITests;
