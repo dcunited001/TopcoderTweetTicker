@@ -28,6 +28,26 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "43551BED1C20CC8C00C74064"
+               BuildableName = "TopcoderTweetTickerTests.xctest"
+               BlueprintName = "TopcoderTweetTickerTests"
+               ReferencedContainer = "container:TopcoderTweetTicker.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "43551BFB1C20CC9800C74064"
+               BuildableName = "TopcoderTweetTickerUITests.xctest"
+               BlueprintName = "TopcoderTweetTickerUITests"
+               ReferencedContainer = "container:TopcoderTweetTicker.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference

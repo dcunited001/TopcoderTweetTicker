@@ -12,7 +12,29 @@
 		4334D6FC1C20C8DD00D2DCA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4334D6FA1C20C8DD00D2DCA6 /* Main.storyboard */; };
 		4334D6FE1C20C8DD00D2DCA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4334D6FD1C20C8DD00D2DCA6 /* Assets.xcassets */; };
 		4334D7011C20C8DD00D2DCA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4334D6FF1C20C8DD00D2DCA6 /* LaunchScreen.storyboard */; };
+		43551BFF1C20CC9800C74064 /* TopcoderTweetTickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43551BFE1C20CC9800C74064 /* TopcoderTweetTickerUITests.swift */; };
+		43551C071C20CCC400C74064 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43551C061C20CCC400C74064 /* Alamofire.framework */; };
+		43551C091C20CCC700C74064 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43551C081C20CCC700C74064 /* SwiftyJSON.framework */; };
+		43551C0B1C20CCE700C74064 /* TwitterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43551C0A1C20CCE700C74064 /* TwitterService.swift */; };
+		43551C0D1C20CD1A00C74064 /* TwitterServiceSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43551C0C1C20CD1A00C74064 /* TwitterServiceSpec.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		43551BF31C20CC8C00C74064 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4334D6EB1C20C8DD00D2DCA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4334D6F21C20C8DD00D2DCA6;
+			remoteInfo = TopcoderTweetTicker;
+		};
+		43551C011C20CC9800C74064 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4334D6EB1C20C8DD00D2DCA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4334D6F21C20C8DD00D2DCA6;
+			remoteInfo = TopcoderTweetTicker;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		4334D6F31C20C8DD00D2DCA6 /* TopcoderTweetTicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TopcoderTweetTicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,10 +44,35 @@
 		4334D6FD1C20C8DD00D2DCA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4334D7001C20C8DD00D2DCA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4334D7021C20C8DD00D2DCA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43551BEE1C20CC8C00C74064 /* TopcoderTweetTickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TopcoderTweetTickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43551BF21C20CC8C00C74064 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43551BFC1C20CC9800C74064 /* TopcoderTweetTickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TopcoderTweetTickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43551BFE1C20CC9800C74064 /* TopcoderTweetTickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopcoderTweetTickerUITests.swift; sourceTree = "<group>"; };
+		43551C001C20CC9800C74064 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43551C061C20CCC400C74064 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		43551C081C20CCC700C74064 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
+		43551C0A1C20CCE700C74064 /* TwitterService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterService.swift; sourceTree = "<group>"; };
+		43551C0C1C20CD1A00C74064 /* TwitterServiceSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterServiceSpec.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		4334D6F01C20C8DD00D2DCA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43551C071C20CCC400C74064 /* Alamofire.framework in Frameworks */,
+				43551C091C20CCC700C74064 /* SwiftyJSON.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43551BEB1C20CC8C00C74064 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43551BF91C20CC9800C74064 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,7 +85,11 @@
 		4334D6EA1C20C8DD00D2DCA6 = {
 			isa = PBXGroup;
 			children = (
+				43551C081C20CCC700C74064 /* SwiftyJSON.framework */,
+				43551C061C20CCC400C74064 /* Alamofire.framework */,
 				4334D6F51C20C8DD00D2DCA6 /* TopcoderTweetTicker */,
+				43551BEF1C20CC8C00C74064 /* TopcoderTweetTickerTests */,
+				43551BFD1C20CC9800C74064 /* TopcoderTweetTickerUITests */,
 				4334D6F41C20C8DD00D2DCA6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +98,8 @@
 			isa = PBXGroup;
 			children = (
 				4334D6F31C20C8DD00D2DCA6 /* TopcoderTweetTicker.app */,
+				43551BEE1C20CC8C00C74064 /* TopcoderTweetTickerTests.xctest */,
+				43551BFC1C20CC9800C74064 /* TopcoderTweetTickerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,8 +113,27 @@
 				4334D6FD1C20C8DD00D2DCA6 /* Assets.xcassets */,
 				4334D6FF1C20C8DD00D2DCA6 /* LaunchScreen.storyboard */,
 				4334D7021C20C8DD00D2DCA6 /* Info.plist */,
+				43551C0A1C20CCE700C74064 /* TwitterService.swift */,
 			);
 			path = TopcoderTweetTicker;
+			sourceTree = "<group>";
+		};
+		43551BEF1C20CC8C00C74064 /* TopcoderTweetTickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				43551C0C1C20CD1A00C74064 /* TwitterServiceSpec.swift */,
+				43551BF21C20CC8C00C74064 /* Info.plist */,
+			);
+			path = TopcoderTweetTickerTests;
+			sourceTree = "<group>";
+		};
+		43551BFD1C20CC9800C74064 /* TopcoderTweetTickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				43551BFE1C20CC9800C74064 /* TopcoderTweetTickerUITests.swift */,
+				43551C001C20CC9800C74064 /* Info.plist */,
+			);
+			path = TopcoderTweetTickerUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,6 +156,42 @@
 			productReference = 4334D6F31C20C8DD00D2DCA6 /* TopcoderTweetTicker.app */;
 			productType = "com.apple.product-type.application";
 		};
+		43551BED1C20CC8C00C74064 /* TopcoderTweetTickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43551BF71C20CC8C00C74064 /* Build configuration list for PBXNativeTarget "TopcoderTweetTickerTests" */;
+			buildPhases = (
+				43551BEA1C20CC8C00C74064 /* Sources */,
+				43551BEB1C20CC8C00C74064 /* Frameworks */,
+				43551BEC1C20CC8C00C74064 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43551BF41C20CC8C00C74064 /* PBXTargetDependency */,
+			);
+			name = TopcoderTweetTickerTests;
+			productName = TopcoderTweetTickerTests;
+			productReference = 43551BEE1C20CC8C00C74064 /* TopcoderTweetTickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		43551BFB1C20CC9800C74064 /* TopcoderTweetTickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43551C031C20CC9800C74064 /* Build configuration list for PBXNativeTarget "TopcoderTweetTickerUITests" */;
+			buildPhases = (
+				43551BF81C20CC9800C74064 /* Sources */,
+				43551BF91C20CC9800C74064 /* Frameworks */,
+				43551BFA1C20CC9800C74064 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43551C021C20CC9800C74064 /* PBXTargetDependency */,
+			);
+			name = TopcoderTweetTickerUITests;
+			productName = TopcoderTweetTickerUITests;
+			productReference = 43551BFC1C20CC9800C74064 /* TopcoderTweetTickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -96,6 +204,14 @@
 				TargetAttributes = {
 					4334D6F21C20C8DD00D2DCA6 = {
 						CreatedOnToolsVersion = 7.2;
+					};
+					43551BED1C20CC8C00C74064 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 4334D6F21C20C8DD00D2DCA6;
+					};
+					43551BFB1C20CC9800C74064 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 4334D6F21C20C8DD00D2DCA6;
 					};
 				};
 			};
@@ -113,6 +229,8 @@
 			projectRoot = "";
 			targets = (
 				4334D6F21C20C8DD00D2DCA6 /* TopcoderTweetTicker */,
+				43551BED1C20CC8C00C74064 /* TopcoderTweetTickerTests */,
+				43551BFB1C20CC9800C74064 /* TopcoderTweetTickerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -128,6 +246,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		43551BEC1C20CC8C00C74064 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43551BFA1C20CC9800C74064 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -137,10 +269,40 @@
 			files = (
 				4334D6F91C20C8DD00D2DCA6 /* ViewController.swift in Sources */,
 				4334D6F71C20C8DD00D2DCA6 /* AppDelegate.swift in Sources */,
+				43551C0B1C20CCE700C74064 /* TwitterService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43551BEA1C20CC8C00C74064 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43551C0D1C20CD1A00C74064 /* TwitterServiceSpec.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43551BF81C20CC9800C74064 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43551BFF1C20CC9800C74064 /* TopcoderTweetTickerUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		43551BF41C20CC8C00C74064 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4334D6F21C20C8DD00D2DCA6 /* TopcoderTweetTicker */;
+			targetProxy = 43551BF31C20CC8C00C74064 /* PBXContainerItemProxy */;
+		};
+		43551C021C20CC9800C74064 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4334D6F21C20C8DD00D2DCA6 /* TopcoderTweetTicker */;
+			targetProxy = 43551C011C20CC9800C74064 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		4334D6FA1C20C8DD00D2DCA6 /* Main.storyboard */ = {
@@ -249,6 +411,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = TopcoderTweetTicker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dcunit3d.TopcoderTweetTicker;
@@ -260,10 +426,62 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = TopcoderTweetTicker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dcunit3d.TopcoderTweetTicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		43551BF51C20CC8C00C74064 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TopcoderTweetTickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dcunit3d.TopcoderTweetTickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TopcoderTweetTicker.app/TopcoderTweetTicker";
+			};
+			name = Debug;
+		};
+		43551BF61C20CC8C00C74064 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TopcoderTweetTickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dcunit3d.TopcoderTweetTickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TopcoderTweetTicker.app/TopcoderTweetTicker";
+			};
+			name = Release;
+		};
+		43551C041C20CC9800C74064 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TopcoderTweetTickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dcunit3d.TopcoderTweetTickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TopcoderTweetTicker;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		43551C051C20CC9800C74064 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TopcoderTweetTickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dcunit3d.TopcoderTweetTickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TopcoderTweetTicker;
+				USES_XCTRUNNER = YES;
 			};
 			name = Release;
 		};
@@ -284,6 +502,23 @@
 			buildConfigurations = (
 				4334D7061C20C8DD00D2DCA6 /* Debug */,
 				4334D7071C20C8DD00D2DCA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43551BF71C20CC8C00C74064 /* Build configuration list for PBXNativeTarget "TopcoderTweetTickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43551BF51C20CC8C00C74064 /* Debug */,
+				43551BF61C20CC8C00C74064 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		43551C031C20CC9800C74064 /* Build configuration list for PBXNativeTarget "TopcoderTweetTickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43551C041C20CC9800C74064 /* Debug */,
+				43551C051C20CC9800C74064 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
