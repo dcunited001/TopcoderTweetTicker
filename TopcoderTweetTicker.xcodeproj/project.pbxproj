@@ -12,27 +12,16 @@
 		4334D6FC1C20C8DD00D2DCA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4334D6FA1C20C8DD00D2DCA6 /* Main.storyboard */; };
 		4334D6FE1C20C8DD00D2DCA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4334D6FD1C20C8DD00D2DCA6 /* Assets.xcassets */; };
 		4334D7011C20C8DD00D2DCA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4334D6FF1C20C8DD00D2DCA6 /* LaunchScreen.storyboard */; };
-		43551BFF1C20CC9800C74064 /* TopcoderTweetTickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43551BFE1C20CC9800C74064 /* TopcoderTweetTickerUITests.swift */; };
 		43551C071C20CCC400C74064 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43551C061C20CCC400C74064 /* Alamofire.framework */; };
 		43551C091C20CCC700C74064 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43551C081C20CCC700C74064 /* SwiftyJSON.framework */; };
 		43551C0B1C20CCE700C74064 /* TwitterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43551C0A1C20CCE700C74064 /* TwitterService.swift */; };
 		43551C0D1C20CD1A00C74064 /* TwitterServiceSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43551C0C1C20CD1A00C74064 /* TwitterServiceSpec.swift */; };
 		43551C111C20D25D00C74064 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43551C0F1C20D25D00C74064 /* Nimble.framework */; };
 		43551C121C20D25D00C74064 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43551C101C20D25D00C74064 /* Quick.framework */; };
-		43551C161C20D2C600C74064 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43551C0F1C20D25D00C74064 /* Nimble.framework */; };
-		43551C171C20D2C600C74064 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43551C101C20D25D00C74064 /* Quick.framework */; };
-		43551C191C20D2D800C74064 /* TickerUISpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43551C181C20D2D800C74064 /* TickerUISpec.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		43551BF31C20CC8C00C74064 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4334D6EB1C20C8DD00D2DCA6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4334D6F21C20C8DD00D2DCA6;
-			remoteInfo = TopcoderTweetTicker;
-		};
-		43551C011C20CC9800C74064 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4334D6EB1C20C8DD00D2DCA6 /* Project object */;
 			proxyType = 1;
@@ -51,16 +40,12 @@
 		4334D7021C20C8DD00D2DCA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		43551BEE1C20CC8C00C74064 /* TopcoderTweetTickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TopcoderTweetTickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		43551BF21C20CC8C00C74064 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		43551BFC1C20CC9800C74064 /* TopcoderTweetTickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TopcoderTweetTickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		43551BFE1C20CC9800C74064 /* TopcoderTweetTickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopcoderTweetTickerUITests.swift; sourceTree = "<group>"; };
-		43551C001C20CC9800C74064 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		43551C061C20CCC400C74064 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		43551C081C20CCC700C74064 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
 		43551C0A1C20CCE700C74064 /* TwitterService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterService.swift; sourceTree = "<group>"; };
 		43551C0C1C20CD1A00C74064 /* TwitterServiceSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterServiceSpec.swift; sourceTree = "<group>"; };
 		43551C0F1C20D25D00C74064 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
 		43551C101C20D25D00C74064 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
-		43551C181C20D2D800C74064 /* TickerUISpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TickerUISpec.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,15 +67,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		43551BF91C20CC9800C74064 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				43551C161C20D2C600C74064 /* Nimble.framework in Frameworks */,
-				43551C171C20D2C600C74064 /* Quick.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -103,7 +79,6 @@
 				43551C061C20CCC400C74064 /* Alamofire.framework */,
 				4334D6F51C20C8DD00D2DCA6 /* TopcoderTweetTicker */,
 				43551BEF1C20CC8C00C74064 /* TopcoderTweetTickerTests */,
-				43551BFD1C20CC9800C74064 /* TopcoderTweetTickerUITests */,
 				4334D6F41C20C8DD00D2DCA6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -113,7 +88,6 @@
 			children = (
 				4334D6F31C20C8DD00D2DCA6 /* TopcoderTweetTicker.app */,
 				43551BEE1C20CC8C00C74064 /* TopcoderTweetTickerTests.xctest */,
-				43551BFC1C20CC9800C74064 /* TopcoderTweetTickerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -139,16 +113,6 @@
 				43551BF21C20CC8C00C74064 /* Info.plist */,
 			);
 			path = TopcoderTweetTickerTests;
-			sourceTree = "<group>";
-		};
-		43551BFD1C20CC9800C74064 /* TopcoderTweetTickerUITests */ = {
-			isa = PBXGroup;
-			children = (
-				43551BFE1C20CC9800C74064 /* TopcoderTweetTickerUITests.swift */,
-				43551C001C20CC9800C74064 /* Info.plist */,
-				43551C181C20D2D800C74064 /* TickerUISpec.swift */,
-			);
-			path = TopcoderTweetTickerUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,25 +155,6 @@
 			productReference = 43551BEE1C20CC8C00C74064 /* TopcoderTweetTickerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		43551BFB1C20CC9800C74064 /* TopcoderTweetTickerUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 43551C031C20CC9800C74064 /* Build configuration list for PBXNativeTarget "TopcoderTweetTickerUITests" */;
-			buildPhases = (
-				43551BF81C20CC9800C74064 /* Sources */,
-				43551BF91C20CC9800C74064 /* Frameworks */,
-				43551BFA1C20CC9800C74064 /* Resources */,
-				43551C151C20D27E00C74064 /* Copy Carthage Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				43551C021C20CC9800C74064 /* PBXTargetDependency */,
-			);
-			name = TopcoderTweetTickerUITests;
-			productName = TopcoderTweetTickerUITests;
-			productReference = 43551BFC1C20CC9800C74064 /* TopcoderTweetTickerUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -224,10 +169,6 @@
 						CreatedOnToolsVersion = 7.2;
 					};
 					43551BED1C20CC8C00C74064 = {
-						CreatedOnToolsVersion = 7.2;
-						TestTargetID = 4334D6F21C20C8DD00D2DCA6;
-					};
-					43551BFB1C20CC9800C74064 = {
 						CreatedOnToolsVersion = 7.2;
 						TestTargetID = 4334D6F21C20C8DD00D2DCA6;
 					};
@@ -248,7 +189,6 @@
 			targets = (
 				4334D6F21C20C8DD00D2DCA6 /* TopcoderTweetTicker */,
 				43551BED1C20CC8C00C74064 /* TopcoderTweetTickerTests */,
-				43551BFB1C20CC9800C74064 /* TopcoderTweetTickerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -265,13 +205,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		43551BEC1C20CC8C00C74064 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		43551BFA1C20CC9800C74064 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -313,22 +246,6 @@
 			shellPath = "/usr/local/bin/carthage copy-frameworks";
 			shellScript = "";
 		};
-		43551C151C20D27E00C74064 /* Copy Carthage Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/Quick.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/Nimble.framework",
-			);
-			name = "Copy Carthage Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = "/usr/local/bin/carthage copy-frameworks";
-			shellScript = "";
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -350,15 +267,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		43551BF81C20CC9800C74064 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				43551C191C20D2D800C74064 /* TickerUISpec.swift in Sources */,
-				43551BFF1C20CC9800C74064 /* TopcoderTweetTickerUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -366,11 +274,6 @@
 			isa = PBXTargetDependency;
 			target = 4334D6F21C20C8DD00D2DCA6 /* TopcoderTweetTicker */;
 			targetProxy = 43551BF31C20CC8C00C74064 /* PBXContainerItemProxy */;
-		};
-		43551C021C20CC9800C74064 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4334D6F21C20C8DD00D2DCA6 /* TopcoderTweetTicker */;
-			targetProxy = 43551C011C20CC9800C74064 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -539,38 +442,6 @@
 			};
 			name = Release;
 		};
-		43551C041C20CC9800C74064 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
-				INFOPLIST_FILE = TopcoderTweetTickerUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.dcunit3d.TopcoderTweetTickerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = TopcoderTweetTicker;
-				USES_XCTRUNNER = YES;
-			};
-			name = Debug;
-		};
-		43551C051C20CC9800C74064 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
-				INFOPLIST_FILE = TopcoderTweetTickerUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.dcunit3d.TopcoderTweetTickerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = TopcoderTweetTicker;
-				USES_XCTRUNNER = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -597,14 +468,6 @@
 			buildConfigurations = (
 				43551BF51C20CC8C00C74064 /* Debug */,
 				43551BF61C20CC8C00C74064 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		43551C031C20CC9800C74064 /* Build configuration list for PBXNativeTarget "TopcoderTweetTickerUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				43551C041C20CC9800C74064 /* Debug */,
-				43551C051C20CC9800C74064 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
