@@ -146,6 +146,7 @@
 				4334D6EF1C20C8DD00D2DCA6 /* Sources */,
 				4334D6F01C20C8DD00D2DCA6 /* Frameworks */,
 				4334D6F11C20C8DD00D2DCA6 /* Resources */,
+				43551C0E1C20D0B800C74064 /* Copy Carthage Frameworks */,
 			);
 			buildRules = (
 			);
@@ -261,6 +262,25 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		43551C0E1C20D0B800C74064 /* Copy Carthage Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftyJSON.framework",
+			);
+			name = "Copy Carthage Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = "/usr/local/bin/carthage copy-frameworks";
+			shellScript = "";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4334D6EF1C20C8DD00D2DCA6 /* Sources */ = {
